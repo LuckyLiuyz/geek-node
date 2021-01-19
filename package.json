@@ -1,0 +1,24 @@
+{
+  "name": "geek-node",
+  "version": "1.0.0",
+  "description": "极客时间，node学习记录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-http": "node http-demo/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckyLiuyz/geek-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuckyLiuyz/geek-node/issues"
+  },
+  "homepage": "https://github.com/LuckyLiuyz/geek-node#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
