@@ -2,9 +2,10 @@
 // 强调抛事件这种模式更适合底层模块往外传递信息
 const geektime = require('./geektime');
 
+// 监听事件
 geektime.on('newlesson', ({ price }) => {
     console.log('yeah! new lesson')
-    if (price < 80) {
+    if (price < 10) {
         console.log('buy')
     }
 })
